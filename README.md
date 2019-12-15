@@ -8,6 +8,6 @@ This is a simple discord bot template for receiving updates from an RSS feed. It
     "url": "<RSS Feed URL>"
 }
 ```
-Once this information has been added run `npm i` to install the required pages then run `node index` while in the folder to start the bot.  
+Once this information has been added run `npm i` to install the required packages then run `node index` while in the folder to start the bot.  
 
 If the feed you are calling has strict call limits, you may want to adjust the number on line 40 in `index.js`. This value is the number of seconds between calls times 1000, by default this is 3 seconds.
